@@ -1,6 +1,6 @@
 {
-    "name": "shardj/zf1-future",
-    "description": "Zend Framework 1. The aim is to keep ZF1 working with the latest PHP versions",
+    "name": "ingeniuz/zf1",
+    "description": "Zend Framework 1. The aim is to keep ZF1 working with the latest PHP versions (based on shardj/zf1-future)",
     "type": "library",
     "keywords": [
         "framework",
