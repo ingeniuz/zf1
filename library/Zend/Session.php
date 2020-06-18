@@ -395,6 +395,8 @@ class Zend_Session extends Zend_Session_Abstract
             return true;
         } elseif ((bool)ini_get('session.use_only_cookies') == false && isset($_REQUEST[session_name()])) {
             return true;
+        } elseif ('' != session_id()) {
+            return true;
         } elseif (self::$_unitTestEnabled) {
             return true;
         }
